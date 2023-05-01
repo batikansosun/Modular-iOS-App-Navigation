@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134DA02029FDB30800324E44 /* CoreModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DA01C29FDB30800324E44 /* CoreModule.framework */; };
+		134DA02129FDB30800324E44 /* CoreModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 134DA01C29FDB30800324E44 /* CoreModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1391091629B7CECE00F2E067 /* PaymentModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1391090D29B7CECE00F2E067 /* PaymentModule.framework */; };
+		1391091B29B7CECE00F2E067 /* PaymentModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1391091A29B7CECE00F2E067 /* PaymentModuleTests.swift */; };
+		1391091C29B7CECE00F2E067 /* PaymentModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1391091029B7CECE00F2E067 /* PaymentModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139109DC29B8BDDB00F2E067 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139109DA29B8BDDB00F2E067 /* PaymentViewController.swift */; };
+		139109DD29B8BDDB00F2E067 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 139109DB29B8BDDB00F2E067 /* PaymentViewController.xib */; };
+		13F9AE1129C79B4000E432B8 /* PaymentNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9AE1029C79B4000E432B8 /* PaymentNavigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1391091729B7CECE00F2E067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1391090429B7CECE00F2E067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1391090C29B7CECE00F2E067;
+			remoteInfo = PaymentModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		139109B429B7D44500F2E067 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				134DA02129FDB30800324E44 /* CoreModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134DA01C29FDB30800324E44 /* CoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1391090D29B7CECE00F2E067 /* PaymentModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaymentModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1391091029B7CECE00F2E067 /* PaymentModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentModule.h; sourceTree = "<group>"; };
+		1391091529B7CECE00F2E067 /* PaymentModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1391091A29B7CECE00F2E067 /* PaymentModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModuleTests.swift; sourceTree = "<group>"; };
+		139109DA29B8BDDB00F2E067 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		139109DB29B8BDDB00F2E067 /* PaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
+		13F9AE1029C79B4000E432B8 /* PaymentNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNavigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1391090A29B7CECE00F2E067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134DA02029FDB30800324E44 /* CoreModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1391091229B7CECE00F2E067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391091629B7CECE00F2E067 /* PaymentModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1391090329B7CECE00F2E067 = {
+			isa = PBXGroup;
+			children = (
+				1391090F29B7CECE00F2E067 /* PaymentModule */,
+				1391091929B7CECE00F2E067 /* PaymentModuleTests */,
+				1391090E29B7CECE00F2E067 /* Products */,
+				D58D6593C59F7154BD1591CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1391090E29B7CECE00F2E067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1391090D29B7CECE00F2E067 /* PaymentModule.framework */,
+				1391091529B7CECE00F2E067 /* PaymentModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1391090F29B7CECE00F2E067 /* PaymentModule */ = {
+			isa = PBXGroup;
+			children = (
+				1391091029B7CECE00F2E067 /* PaymentModule.h */,
+				13F9AE1029C79B4000E432B8 /* PaymentNavigation.swift */,
+				139109DE29B8BDDF00F2E067 /* PaymentViewController */,
+			);
+			path = PaymentModule;
+			sourceTree = "<group>";
+		};
+		1391091929B7CECE00F2E067 /* PaymentModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1391091A29B7CECE00F2E067 /* PaymentModuleTests.swift */,
+			);
+			path = PaymentModuleTests;
+			sourceTree = "<group>";
+		};
+		139109DE29B8BDDF00F2E067 /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				139109DA29B8BDDB00F2E067 /* PaymentViewController.swift */,
+				139109DB29B8BDDB00F2E067 /* PaymentViewController.xib */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
+		D58D6593C59F7154BD1591CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134DA01C29FDB30800324E44 /* CoreModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1391090829B7CECE00F2E067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391091C29B7CECE00F2E067 /* PaymentModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1391090C29B7CECE00F2E067 /* PaymentModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1391091F29B7CECE00F2E067 /* Build configuration list for PBXNativeTarget "PaymentModule" */;
+			buildPhases = (
+				1391090829B7CECE00F2E067 /* Headers */,
+				1391090929B7CECE00F2E067 /* Sources */,
+				1391090A29B7CECE00F2E067 /* Frameworks */,
+				1391090B29B7CECE00F2E067 /* Resources */,
+				139109B429B7D44500F2E067 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentModule;
+			productName = PaymentModule;
+			productReference = 1391090D29B7CECE00F2E067 /* PaymentModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1391091429B7CECE00F2E067 /* PaymentModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1391092229B7CECE00F2E067 /* Build configuration list for PBXNativeTarget "PaymentModuleTests" */;
+			buildPhases = (
+				1391091129B7CECE00F2E067 /* Sources */,
+				1391091229B7CECE00F2E067 /* Frameworks */,
+				1391091329B7CECE00F2E067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1391091829B7CECE00F2E067 /* PBXTargetDependency */,
+			);
+			name = PaymentModuleTests;
+			productName = PaymentModuleTests;
+			productReference = 1391091529B7CECE00F2E067 /* PaymentModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1391090429B7CECE00F2E067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1391090C29B7CECE00F2E067 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					1391091429B7CECE00F2E067 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1391090729B7CECE00F2E067 /* Build configuration list for PBXProject "PaymentModule" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1391090329B7CECE00F2E067;
+			productRefGroup = 1391090E29B7CECE00F2E067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1391090C29B7CECE00F2E067 /* PaymentModule */,
+				1391091429B7CECE00F2E067 /* PaymentModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1391090B29B7CECE00F2E067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139109DD29B8BDDB00F2E067 /* PaymentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1391091329B7CECE00F2E067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1391090929B7CECE00F2E067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F9AE1129C79B4000E432B8 /* PaymentNavigation.swift in Sources */,
+				139109DC29B8BDDB00F2E067 /* PaymentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1391091129B7CECE00F2E067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391091B29B7CECE00F2E067 /* PaymentModuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1391091829B7CECE00F2E067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1391090C29B7CECE00F2E067 /* PaymentModule */;
+			targetProxy = 1391091729B7CECE00F2E067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1391091D29B7CECE00F2E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1391091E29B7CECE00F2E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1391092029B7CECE00F2E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batikan.PaymentModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1391092129B7CECE00F2E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batikan.PaymentModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1391092329B7CECE00F2E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U899YTMTT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batikan.PaymentModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1391092429B7CECE00F2E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U899YTMTT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batikan.PaymentModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1391090729B7CECE00F2E067 /* Build configuration list for PBXProject "PaymentModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1391091D29B7CECE00F2E067 /* Debug */,
+				1391091E29B7CECE00F2E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1391091F29B7CECE00F2E067 /* Build configuration list for PBXNativeTarget "PaymentModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1391092029B7CECE00F2E067 /* Debug */,
+				1391092129B7CECE00F2E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1391092229B7CECE00F2E067 /* Build configuration list for PBXNativeTarget "PaymentModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1391092329B7CECE00F2E067 /* Debug */,
+				1391092429B7CECE00F2E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1391090429B7CECE00F2E067 /* Project object */;
+}

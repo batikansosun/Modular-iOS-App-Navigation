@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MainApp.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:BasketModule"
+      name = "BasketModule">
+      <FileRef
+         location = "group:BasketModule.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:BasketModuleTests"
+         name = "BasketModuleTests">
+         <FileRef
+            location = "group:BasketModuleTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:BasketModule"
+         name = "BasketModule">
+         <FileRef
+            location = "group:BasketModule.h">
+         </FileRef>
+         <FileRef
+            location = "group:BasketNavigation.swift">
+         </FileRef>
+         <Group
+            location = "group:BasketViewController"
+            name = "BasketViewController">
+            <FileRef
+               location = "group:BasketViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BasketViewController.xib">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:CoreModule"
+      name = "CoreModule">
+      <Group
+         location = "group:CoreModuleTests"
+         name = "CoreModuleTests">
+         <FileRef
+            location = "group:CoreModuleTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:CoreModule"
+         name = "CoreModule">
+         <FileRef
+            location = "group:CoreModule.h">
+         </FileRef>
+         <FileRef
+            location = "group:DIContainer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NavigationService.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CoreModule.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:LoginModule"
+      name = "LoginModule">
+      <Group
+         location = "group:LoginModuleTests"
+         name = "LoginModuleTests">
+         <FileRef
+            location = "group:LoginModuleTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:LoginModule"
+         name = "LoginModule">
+         <FileRef
+            location = "group:LoginNavigation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoginModule.h">
+         </FileRef>
+         <Group
+            location = "group:LoginViewController"
+            name = "LoginViewController">
+            <FileRef
+               location = "group:LoginViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:LoginViewController.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:LoginModule.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:PaymentModule"
+      name = "PaymentModule">
+      <FileRef
+         location = "group:PaymentModule.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:PaymentModuleTests"
+         name = "PaymentModuleTests">
+         <FileRef
+            location = "group:PaymentModuleTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:PaymentModule"
+         name = "PaymentModule">
+         <Group
+            location = "group:PaymentViewController"
+            name = "PaymentViewController">
+            <FileRef
+               location = "group:PaymentViewController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:PaymentViewController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:PaymentNavigation.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PaymentModule.h">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
